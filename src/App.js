@@ -1,9 +1,16 @@
 
 import './App.css';
-
+import NameHeader from './components/NameHeader.jsx'
+import Seprate from './components/Seprate'
 function App() {
   return (
-    <div><h1>Lets Start!</h1></div>
+    <div>
+    <NameHeader />
+       <Seprate/>
+    
+    
+    </div>
+   
   );
 }
 
