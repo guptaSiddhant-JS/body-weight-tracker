@@ -7,8 +7,6 @@ function App() {
     <div>
     <NameHeader />
        <Seprate/>
-    
-    
     </div>
    
   );

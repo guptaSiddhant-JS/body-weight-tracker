@@ -1,11 +1,41 @@
-.splitScreen {
-    display: 'flex';
-    flexDirection: 'row';
-}
+
 .topPane {
-    width: '50%';
-    color: red;
+    position:relative;
+    float:left;
+    z-index:1;
+    background-color:#867ae9;
+    width:50%;
+    height:60vh;
+    border:inline;
+    padding:2%;
+    margin:2%;
 }
 .bottomPane {
-    width: '50%';
+    
+    z-index:1;
+    position:relative;
+    float:left;
+    width:35%;
+    padding:2%;
+}
+
+
+@media (max-width: 580px) {
+ 
+ .topPane {
+ 
+    background-color:red;
+    width:90%;
+    height:60vh;
+    border:inline;
+    padding:2%;
+    margin:2%;
+}
+.bottomPane {
+    
+   
+    width:90%;
+    padding:2%;
+}
+
 }

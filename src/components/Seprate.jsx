@@ -3,12 +3,16 @@ import WeightElement from "./WeightElement.jsx"
 
 function Seprate (){
     return(
-        <div className="splitScreen">
+        <div>
           <div className="topPane">
-              <h1>Working</h1>
+              <h1>Chart</h1>
            </div>
            <div className="bottomPane">
               <WeightElement />
+              <WeightElement />
+              <WeightElement />
+              <WeightElement />
+              
            </div>
         </div>
       
