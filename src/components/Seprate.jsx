@@ -7,7 +7,7 @@ function Seprate (){
           <div className="topPane">
               <h1>Chart</h1>
            </div>
-           <div className="bottomPane">
+           <div className="bottomPane containerBox">
               <WeightElement />
               <WeightElement />
               <WeightElement />

@@ -5,8 +5,8 @@ import Seprate from './components/Seprate'
 function App() {
   return (
     <div>
-    <NameHeader />
-       <Seprate/>
+        <NameHeader />
+        <Seprate/>
     </div>
    
   );
