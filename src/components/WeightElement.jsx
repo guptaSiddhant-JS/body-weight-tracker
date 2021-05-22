@@ -1,10 +1,9 @@
 import './WeightElement.css'
-function WeightElement(){
-    
-
-    return (<div className="record-item">
-    <h2 >22 May 2001</h2>
-    <div>82 </div>
-    </div>)
+function WeightElement(props){
+    return (
+    <div className="record-item">
+    <h2 >{props.date.toLocaleString()}</h2>
+    <div>{props.weight}</div>
+    </div>);
 }
 export default WeightElement;
